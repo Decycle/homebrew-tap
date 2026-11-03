@@ -1,6 +1,6 @@
 cask "glass" do
-  version "0.0.4"
-  sha256 "66ed67cc9cd5b6cee5036387a35a16c82ff91096ec0756814284871782db57a7"
+  version "0.0.5"
+  sha256 "d0a6d156d695457914a3a5d34ce27de1532197d09e8465c47d327e2fbed0771b"
 
   url "https://downloads.glasseditor.app/GlassRecorder-#{version}.dmg"
   name "Glass"
@@ -13,6 +13,7 @@ cask "glass" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :sequoia
 
   app "GlassRecorder.app"
