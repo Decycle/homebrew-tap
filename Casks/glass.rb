@@ -8,8 +8,8 @@ cask "glass" do
   homepage "https://glasseditor.app/"
 
   livecheck do
-    url "https://downloads.glasseditor.app/GlassRecorder.dmg"
-    strategy :extract_plist
+    url "https://glasseditor.app/appcast.xml"
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
