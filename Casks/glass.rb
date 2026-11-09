@@ -1,6 +1,6 @@
 cask "glass" do
-  version "0.2.1"
-  sha256 "e49d0181a180f2ee9402c02ed5be64a561fd41033f19cd3add4665e53fe9d650"
+  version "0.2.2"
+  sha256 "311444bdbffa877f7ae7f6cccc3c9388309e0864eac59ceda0532d3b6fde2eb9"
 
   url "https://downloads.glasseditor.app/Glass-#{version}.dmg"
   name "Glass"
